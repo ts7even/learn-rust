@@ -28,3 +28,11 @@ look up tickets.
 * git merge --squash feature (summarize all commits into one commit as latest commit into master branch)
 * git commit -m "Branch merged into Master"
 * git push 
+
+## Make Rust Initialized
+* make sure your folder is a snake case name (learn_rust)
+* cargo init (Creates rust enviorment)
+* cargo run (compile and run)
+* ./target/debug/learn_rust (runs the compiled file)
+* cargo build (compiles but does not run)
+* cargo build --release (builds package for release 'optimized')
