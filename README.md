@@ -36,3 +36,43 @@ look up tickets.
 * ./target/debug/learn_rust (runs the compiled file)
 * cargo build (compiles but does not run)
 * cargo build --release (builds package for release 'optimized')
+
+
+## Importing functions from other file to call 
+make sure you save all before running
+* from print.rs file
+```
+
+pub fn run() {
+    //print to console
+    println!("Hello from the print.rs file");
+
+    // To print 'Number 1' you have to do it like this
+    println!("Number {}", 1);
+
+}
+
+```
+* from main.rs file
+
+```
+mod print;
+// mod imports the print.rs file
+
+fn main() {
+    //calls and runs the print.rs file
+    print::run();
+}
+
+```
+
+## Primative Types
+/* 
+Primative Types ---
+Integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 (number of bits they take in memory)
+FLoats: f32, f64
+Boolean (bool)
+Characters (char)
+Tuples 
+Arrays
+*/
