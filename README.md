@@ -69,10 +69,15 @@ fn main() {
 ## Primative Types
 /* 
 Primative Types ---
-Integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 (number of bits they take in memory)
+Integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 (number of bits they take in memory, larger the number the more of bits)
 FLoats: f32, f64
 Boolean (bool)
-Characters (char)
-Tuples 
-Arrays
+Characters (char) - 1 character not a string
+Tuples - lists 
+Arrays - fixed length
+Vectors - growing length
+Rust is a Statis type language, 
 */
+
+// Rust is  astatically typed language, which means that it must know the types of all variables at compiple time. 
+// Howerverm the compiler can usally infer what type we want to use base on the value and how we use it. 
