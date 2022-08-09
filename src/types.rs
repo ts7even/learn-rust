@@ -31,7 +31,11 @@ pub fn run(){
     // Get Boolean from expression
     let is_greater: bool = 10 > 5;
 
-    println!("{:?}", (x,y,t, is_active, is_greater));
+    // unicode character with single quotes char. has to be 1 character
+    let a1 = 'a';
+    let face = '\u{1f600}';
+
+    println!("{:?}", (x,y,t, is_active, is_greater, a1, face));
 
     // FInd max size
     println!("Max i32: {}", std::i32::MAX);
